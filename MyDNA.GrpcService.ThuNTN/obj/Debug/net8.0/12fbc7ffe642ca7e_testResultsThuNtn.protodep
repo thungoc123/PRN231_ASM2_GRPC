@@ -1,0 +1,2 @@
+obj\Debug\net8.0\Protos/TestResultsThuNtn.cs \
+obj\Debug\net8.0\Protos/TestResultsThuNtnGrpc.cs: Protos/testResultsThuNtn.proto

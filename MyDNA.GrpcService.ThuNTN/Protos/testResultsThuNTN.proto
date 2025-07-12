@@ -1,0 +1,44 @@
+syntax = "proto3";
+
+option csharp_namespace = "MyDNA.GrpcService.ThuNTN.Protos";
+service TestResultsThuNtnGRPC {
+    // Queries
+    rpc GetAllAsync (EmptyRequest) returns (TestResultsThuNtnList);
+    rpc GetByIdAsync (TestResultThuNtnIdRequest) returns (TestResultsThuNtn);
+    // Mutations
+    rpc CreateAsync(TestResultsThuNtn) returns (MutationResult);
+    rpc UpdateAsync(TestResultsThuNtn) returns (MutationResult);
+    rpc DeleteAsync(TestResultThuNtnIdRequest) returns (MutationResult);
+}
+
+message EmptyRequest {
+}
+
+message MutationResult
+{
+	int32 result = 1;
+}
+
+message TestResultThuNtnIdRequest
+{
+
+	int32 TestResultThuNtnid = 1; 
+}
+
+message TestResultsThuNtnList {
+    repeated TestResultsThuNtn Items = 1;
+}
+
+message TestResultsThuNtn{
+    int32 TestResultThuNtnid = 1;
+    int32 OrderId = 2;
+    int32 ResultVersion = 3;
+    string ResultSummary = 4;
+    string ResultDetail = 5;
+    string ResultFileUrl = 6;
+    string IssuedBy = 7;
+    string CompletedAt = 8; // ISO 8601 string format
+    string CreatedAt = 9;   // ISO 8601 string format
+    string ResultStatus = 10;
+    // N?u c?n map thông tin chi ti?t t? Order, b?n có th? thêm m?t message TestOrdersThuNtn ? ðây
+}

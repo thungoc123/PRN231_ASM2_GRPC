@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\MyDNA.GrpcService.ThuNTN.props" />
+</Project>
