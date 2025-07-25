@@ -1,7 +1,36 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM3_SE171992_ThuNTN\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{163BA875-7B24-4683-8ADE-B0FE44490277}|MyDNA.GrpcService.ThuNTN\\MyDNA.GrpcService.ThuNTN.csproj|c:\\users\\admin\\source\\repos\\su25_prn231_se1723_asm3_se171992_thuntn\\mydna.grpcservice.thuntn\\services\\testresultsthuntngrpcservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{163BA875-7B24-4683-8ADE-B0FE44490277}|MyDNA.GrpcService.ThuNTN\\MyDNA.GrpcService.ThuNTN.csproj|solutionrelative:mydna.grpcservice.thuntn\\services\\testresultsthuntngrpcservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{163BA875-7B24-4683-8ADE-B0FE44490277}|MyDNA.GrpcService.ThuNTN\\MyDNA.GrpcService.ThuNTN.csproj|c:\\users\\admin\\source\\repos\\su25_prn231_se1723_asm3_se171992_thuntn\\mydna.grpcservice.thuntn\\protos\\testresultsthuntn.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{163BA875-7B24-4683-8ADE-B0FE44490277}|MyDNA.GrpcService.ThuNTN\\MyDNA.GrpcService.ThuNTN.csproj|solutionrelative:mydna.grpcservice.thuntn\\protos\\testresultsthuntn.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM3_SE171992_ThuNTN\\MyDNA.GrpcService.ThuNTN\\obj\\Debug\\net8.0\\Protos\\TestResultsThuNtnGrpc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MyDNA.GrpcService.ThuNTN\\obj\\Debug\\net8.0\\Protos\\TestResultsThuNtnGrpc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33492005-DEE9-44B1-834C-796A2C95C720}|MyDNA.GrpcClient.ConsoleApp.ThuNTN\\MyDNA.GrpcClient.ConsoleApp.ThuNTN.csproj|c:\\users\\admin\\source\\repos\\su25_prn231_se1723_asm3_se171992_thuntn\\mydna.grpcclient.consoleapp.thuntn\\protos\\testresultsthuntn.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{33492005-DEE9-44B1-834C-796A2C95C720}|MyDNA.GrpcClient.ConsoleApp.ThuNTN\\MyDNA.GrpcClient.ConsoleApp.ThuNTN.csproj|solutionrelative:mydna.grpcclient.consoleapp.thuntn\\protos\\testresultsthuntn.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{163BA875-7B24-4683-8ADE-B0FE44490277}|MyDNA.GrpcService.ThuNTN\\MyDNA.GrpcService.ThuNTN.csproj|c:\\users\\admin\\source\\repos\\su25_prn231_se1723_asm3_se171992_thuntn\\mydna.grpcservice.thuntn\\protos\\greet.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{163BA875-7B24-4683-8ADE-B0FE44490277}|MyDNA.GrpcService.ThuNTN\\MyDNA.GrpcService.ThuNTN.csproj|solutionrelative:mydna.grpcservice.thuntn\\protos\\greet.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33492005-DEE9-44B1-834C-796A2C95C720}|MyDNA.GrpcClient.ConsoleApp.ThuNTN\\MyDNA.GrpcClient.ConsoleApp.ThuNTN.csproj|c:\\users\\admin\\source\\repos\\su25_prn231_se1723_asm3_se171992_thuntn\\mydna.grpcclient.consoleapp.thuntn\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33492005-DEE9-44B1-834C-796A2C95C720}|MyDNA.GrpcClient.ConsoleApp.ThuNTN\\MyDNA.GrpcClient.ConsoleApp.ThuNTN.csproj|solutionrelative:mydna.grpcclient.consoleapp.thuntn\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{163BA875-7B24-4683-8ADE-B0FE44490277}|MyDNA.GrpcService.ThuNTN\\MyDNA.GrpcService.ThuNTN.csproj|c:\\users\\admin\\source\\repos\\su25_prn231_se1723_asm3_se171992_thuntn\\mydna.grpcservice.thuntn\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{163BA875-7B24-4683-8ADE-B0FE44490277}|MyDNA.GrpcService.ThuNTN\\MyDNA.GrpcService.ThuNTN.csproj|solutionrelative:mydna.grpcservice.thuntn\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,6 +63,97 @@
             {
               "$type": "Bookmark",
               "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TestResultsThuNtnGRPCService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM3_SE171992_ThuNTN\\MyDNA.GrpcService.ThuNTN\\Services\\TestResultsThuNtnGRPCService.cs",
+              "RelativeDocumentMoniker": "MyDNA.GrpcService.ThuNTN\\Services\\TestResultsThuNtnGRPCService.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM3_SE171992_ThuNTN\\MyDNA.GrpcService.ThuNTN\\Services\\TestResultsThuNtnGRPCService.cs",
+              "RelativeToolTip": "MyDNA.GrpcService.ThuNTN\\Services\\TestResultsThuNtnGRPCService.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAmwDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T06:25:46.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TestResultsThuNtnGrpc.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM3_SE171992_ThuNTN\\MyDNA.GrpcService.ThuNTN\\obj\\Debug\\net8.0\\Protos\\TestResultsThuNtnGrpc.cs",
+              "RelativeDocumentMoniker": "MyDNA.GrpcService.ThuNTN\\obj\\Debug\\net8.0\\Protos\\TestResultsThuNtnGrpc.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM3_SE171992_ThuNTN\\MyDNA.GrpcService.ThuNTN\\obj\\Debug\\net8.0\\Protos\\TestResultsThuNtnGrpc.cs",
+              "RelativeToolTip": "MyDNA.GrpcService.ThuNTN\\obj\\Debug\\net8.0\\Protos\\TestResultsThuNtnGrpc.cs",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAewJMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T06:23:23.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM3_SE171992_ThuNTN\\MyDNA.GrpcClient.ConsoleApp.ThuNTN\\Program.cs",
+              "RelativeDocumentMoniker": "MyDNA.GrpcClient.ConsoleApp.ThuNTN\\Program.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM3_SE171992_ThuNTN\\MyDNA.GrpcClient.ConsoleApp.ThuNTN\\Program.cs",
+              "RelativeToolTip": "MyDNA.GrpcClient.ConsoleApp.ThuNTN\\Program.cs",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAIwJ4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T05:12:22.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM3_SE171992_ThuNTN\\MyDNA.GrpcService.ThuNTN\\appsettings.json",
+              "RelativeDocumentMoniker": "MyDNA.GrpcService.ThuNTN\\appsettings.json",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM3_SE171992_ThuNTN\\MyDNA.GrpcService.ThuNTN\\appsettings.json",
+              "RelativeToolTip": "MyDNA.GrpcService.ThuNTN\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-25T05:07:24.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "testResultsThuNtn.proto",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM3_SE171992_ThuNTN\\MyDNA.GrpcClient.ConsoleApp.ThuNTN\\Protos\\testResultsThuNtn.proto",
+              "RelativeDocumentMoniker": "MyDNA.GrpcClient.ConsoleApp.ThuNTN\\Protos\\testResultsThuNtn.proto",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM3_SE171992_ThuNTN\\MyDNA.GrpcClient.ConsoleApp.ThuNTN\\Protos\\testResultsThuNtn.proto",
+              "RelativeToolTip": "MyDNA.GrpcClient.ConsoleApp.ThuNTN\\Protos\\testResultsThuNtn.proto",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2025-07-25T05:04:06.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "testResultsThuNtn.proto",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM3_SE171992_ThuNTN\\MyDNA.GrpcService.ThuNTN\\Protos\\testResultsThuNTN.proto",
+              "RelativeDocumentMoniker": "MyDNA.GrpcService.ThuNTN\\Protos\\testResultsThuNTN.proto",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM3_SE171992_ThuNTN\\MyDNA.GrpcService.ThuNTN\\Protos\\testResultsThuNTN.proto",
+              "RelativeToolTip": "MyDNA.GrpcService.ThuNTN\\Protos\\testResultsThuNTN.proto",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2025-07-25T04:53:22.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "greet.proto",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM3_SE171992_ThuNTN\\MyDNA.GrpcService.ThuNTN\\Protos\\greet.proto",
+              "RelativeDocumentMoniker": "MyDNA.GrpcService.ThuNTN\\Protos\\greet.proto",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\SU25_PRN231_SE1723_ASM3_SE171992_ThuNTN\\MyDNA.GrpcService.ThuNTN\\Protos\\greet.proto",
+              "RelativeToolTip": "MyDNA.GrpcService.ThuNTN\\Protos\\greet.proto",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2025-07-25T04:53:17.756Z",
+              "EditorCaption": ""
             }
           ]
         }

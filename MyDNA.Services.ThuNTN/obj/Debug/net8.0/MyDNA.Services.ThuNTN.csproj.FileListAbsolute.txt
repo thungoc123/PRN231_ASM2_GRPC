@@ -28,3 +28,4 @@ C:\Users\admin\source\repos\SU25_PRN231_SE1723_ASM3_SE171992_ThuNTN\MyDNA.Servic
 C:\Users\admin\source\repos\SU25_PRN231_SE1723_ASM3_SE171992_ThuNTN\MyDNA.Services.ThuNTN\obj\Debug\net8.0\refint\MyDNA.Services.ThuNTN.dll
 C:\Users\admin\source\repos\SU25_PRN231_SE1723_ASM3_SE171992_ThuNTN\MyDNA.Services.ThuNTN\obj\Debug\net8.0\MyDNA.Services.ThuNTN.pdb
 C:\Users\admin\source\repos\SU25_PRN231_SE1723_ASM3_SE171992_ThuNTN\MyDNA.Services.ThuNTN\obj\Debug\net8.0\ref\MyDNA.Services.ThuNTN.dll
+C:\Users\admin\source\repos\SU25_PRN231_SE1723_ASM3_SE171992_ThuNTN\MyDNA.Services.ThuNTN\obj\Debug\net8.0\MyDNA.Services.ThuNTN.sourcelink.json

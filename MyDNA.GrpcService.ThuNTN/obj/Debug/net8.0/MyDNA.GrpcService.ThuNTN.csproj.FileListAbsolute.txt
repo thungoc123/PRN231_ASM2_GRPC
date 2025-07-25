@@ -76,3 +76,4 @@ C:\Users\admin\source\repos\SU25_PRN231_SE1723_ASM3_SE171992_ThuNTN\MyDNA.GrpcSe
 C:\Users\admin\source\repos\SU25_PRN231_SE1723_ASM3_SE171992_ThuNTN\MyDNA.GrpcService.ThuNTN\bin\Debug\net8.0\MyDNA.Services.ThuNTN.dll
 C:\Users\admin\source\repos\SU25_PRN231_SE1723_ASM3_SE171992_ThuNTN\MyDNA.GrpcService.ThuNTN\bin\Debug\net8.0\MyDNA.Services.ThuNTN.pdb
 C:\Users\admin\source\repos\SU25_PRN231_SE1723_ASM3_SE171992_ThuNTN\MyDNA.GrpcService.ThuNTN\bin\Debug\net8.0\MyDNA.Repositories.ThuNTN.pdb
+C:\Users\admin\source\repos\SU25_PRN231_SE1723_ASM3_SE171992_ThuNTN\MyDNA.GrpcService.ThuNTN\obj\Debug\net8.0\MyDNA.GrpcService.ThuNTN.sourcelink.json

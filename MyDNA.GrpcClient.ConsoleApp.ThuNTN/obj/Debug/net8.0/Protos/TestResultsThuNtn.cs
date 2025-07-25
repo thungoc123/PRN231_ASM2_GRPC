@@ -25,23 +25,28 @@ namespace MyDNA.GrpcService.ThuNTN.Protos {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "Ch5Qcm90b3MvdGVzdFJlc3VsdHNUaHVOdG4ucHJvdG8iDgoMRW1wdHlSZXF1",
-            "ZXN0IjcKGVRlc3RSZXN1bHRUaHVOdG5JZFJlcXVlc3QSGgoSVGVzdFJlc3Vs",
-            "dFRodU50bmlkGAEgASgFIjoKFVRlc3RSZXN1bHRzVGh1TnRuTGlzdBIhCgVJ",
-            "dGVtcxgBIAMoCzISLlRlc3RSZXN1bHRzVGh1TnRuIusBChFUZXN0UmVzdWx0",
-            "c1RodU50bhIaChJUZXN0UmVzdWx0VGh1TnRuaWQYASABKAUSDwoHT3JkZXJJ",
-            "ZBgCIAEoBRIVCg1SZXN1bHRWZXJzaW9uGAMgASgFEhUKDVJlc3VsdFN1bW1h",
-            "cnkYBCABKAkSFAoMUmVzdWx0RGV0YWlsGAUgASgJEhUKDVJlc3VsdEZpbGVV",
-            "cmwYBiABKAkSEAoISXNzdWVkQnkYByABKAkSEwoLQ29tcGxldGVkQXQYCCAB",
-            "KAkSEQoJQ3JlYXRlZEF0GAkgASgJEhQKDFJlc3VsdFN0YXR1cxgKIAEoCTKN",
-            "AQoVVGVzdFJlc3VsdHNUaHVOdG5HUlBDEjQKC0dldEFsbEFzeW5jEg0uRW1w",
-            "dHlSZXF1ZXN0GhYuVGVzdFJlc3VsdHNUaHVOdG5MaXN0Ej4KDEdldEJ5SWRB",
-            "c3luYxIaLlRlc3RSZXN1bHRUaHVOdG5JZFJlcXVlc3QaEi5UZXN0UmVzdWx0",
-            "c1RodU50bkIiqgIfTXlETkEuR3JwY1NlcnZpY2UuVGh1TlROLlByb3Rvc2IG",
-            "cHJvdG8z"));
+            "ZXN0IiAKDk11dGF0aW9uUmVzdWx0Eg4KBnJlc3VsdBgBIAEoBSI3ChlUZXN0",
+            "UmVzdWx0VGh1TnRuSWRSZXF1ZXN0EhoKElRlc3RSZXN1bHRUaHVOdG5pZBgB",
+            "IAEoBSI6ChVUZXN0UmVzdWx0c1RodU50bkxpc3QSIQoFSXRlbXMYASADKAsy",
+            "Ei5UZXN0UmVzdWx0c1RodU50biLrAQoRVGVzdFJlc3VsdHNUaHVOdG4SGgoS",
+            "VGVzdFJlc3VsdFRodU50bmlkGAEgASgFEg8KB09yZGVySWQYAiABKAUSFQoN",
+            "UmVzdWx0VmVyc2lvbhgDIAEoBRIVCg1SZXN1bHRTdW1tYXJ5GAQgASgJEhQK",
+            "DFJlc3VsdERldGFpbBgFIAEoCRIVCg1SZXN1bHRGaWxlVXJsGAYgASgJEhAK",
+            "CElzc3VlZEJ5GAcgASgJEhMKC0NvbXBsZXRlZEF0GAggASgJEhEKCUNyZWF0",
+            "ZWRBdBgJIAEoCRIUCgxSZXN1bHRTdGF0dXMYCiABKAkysQIKFVRlc3RSZXN1",
+            "bHRzVGh1TnRuR1JQQxI0CgtHZXRBbGxBc3luYxINLkVtcHR5UmVxdWVzdBoW",
+            "LlRlc3RSZXN1bHRzVGh1TnRuTGlzdBI+CgxHZXRCeUlkQXN5bmMSGi5UZXN0",
+            "UmVzdWx0VGh1TnRuSWRSZXF1ZXN0GhIuVGVzdFJlc3VsdHNUaHVOdG4SMgoL",
+            "Q3JlYXRlQXN5bmMSEi5UZXN0UmVzdWx0c1RodU50bhoPLk11dGF0aW9uUmVz",
+            "dWx0EjIKC1VwZGF0ZUFzeW5jEhIuVGVzdFJlc3VsdHNUaHVOdG4aDy5NdXRh",
+            "dGlvblJlc3VsdBI6CgtEZWxldGVBc3luYxIaLlRlc3RSZXN1bHRUaHVOdG5J",
+            "ZFJlcXVlc3QaDy5NdXRhdGlvblJlc3VsdEIiqgIfTXlETkEuR3JwY1NlcnZp",
+            "Y2UuVGh1TlROLlByb3Rvc2IGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::MyDNA.GrpcService.ThuNTN.Protos.EmptyRequest), global::MyDNA.GrpcService.ThuNTN.Protos.EmptyRequest.Parser, null, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::MyDNA.GrpcService.ThuNTN.Protos.MutationResult), global::MyDNA.GrpcService.ThuNTN.Protos.MutationResult.Parser, new[]{ "Result" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::MyDNA.GrpcService.ThuNTN.Protos.TestResultThuNtnIdRequest), global::MyDNA.GrpcService.ThuNTN.Protos.TestResultThuNtnIdRequest.Parser, new[]{ "TestResultThuNtnid" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::MyDNA.GrpcService.ThuNTN.Protos.TestResultsThuNtnList), global::MyDNA.GrpcService.ThuNTN.Protos.TestResultsThuNtnList.Parser, new[]{ "Items" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::MyDNA.GrpcService.ThuNTN.Protos.TestResultsThuNtn), global::MyDNA.GrpcService.ThuNTN.Protos.TestResultsThuNtn.Parser, new[]{ "TestResultThuNtnid", "OrderId", "ResultVersion", "ResultSummary", "ResultDetail", "ResultFileUrl", "IssuedBy", "CompletedAt", "CreatedAt", "ResultStatus" }, null, null, null, null)
@@ -213,6 +218,204 @@ namespace MyDNA.GrpcService.ThuNTN.Protos {
   }
 
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+  public sealed partial class MutationResult : pb::IMessage<MutationResult>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<MutationResult> _parser = new pb::MessageParser<MutationResult>(() => new MutationResult());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<MutationResult> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::MyDNA.GrpcService.ThuNTN.Protos.TestResultsThuNtnReflection.Descriptor.MessageTypes[1]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public MutationResult() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public MutationResult(MutationResult other) : this() {
+      result_ = other.result_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public MutationResult Clone() {
+      return new MutationResult(this);
+    }
+
+    /// <summary>Field number for the "result" field.</summary>
+    public const int ResultFieldNumber = 1;
+    private int result_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int Result {
+      get { return result_; }
+      set {
+        result_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as MutationResult);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(MutationResult other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Result != other.Result) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Result != 0) hash ^= Result.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (Result != 0) {
+        output.WriteRawTag(8);
+        output.WriteInt32(Result);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Result != 0) {
+        output.WriteRawTag(8);
+        output.WriteInt32(Result);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (Result != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Result);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(MutationResult other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Result != 0) {
+        Result = other.Result;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            Result = input.ReadInt32();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 8: {
+            Result = input.ReadInt32();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class TestResultThuNtnIdRequest : pb::IMessage<TestResultThuNtnIdRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -227,7 +430,7 @@ namespace MyDNA.GrpcService.ThuNTN.Protos {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::MyDNA.GrpcService.ThuNTN.Protos.TestResultsThuNtnReflection.Descriptor.MessageTypes[1]; }
+      get { return global::MyDNA.GrpcService.ThuNTN.Protos.TestResultsThuNtnReflection.Descriptor.MessageTypes[2]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -425,7 +628,7 @@ namespace MyDNA.GrpcService.ThuNTN.Protos {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::MyDNA.GrpcService.ThuNTN.Protos.TestResultsThuNtnReflection.Descriptor.MessageTypes[2]; }
+      get { return global::MyDNA.GrpcService.ThuNTN.Protos.TestResultsThuNtnReflection.Descriptor.MessageTypes[3]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -612,7 +815,7 @@ namespace MyDNA.GrpcService.ThuNTN.Protos {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::MyDNA.GrpcService.ThuNTN.Protos.TestResultsThuNtnReflection.Descriptor.MessageTypes[3]; }
+      get { return global::MyDNA.GrpcService.ThuNTN.Protos.TestResultsThuNtnReflection.Descriptor.MessageTypes[4]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

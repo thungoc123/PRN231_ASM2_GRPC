@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MyDNA.GrpcClient.ConsoleApp.ThuNTN")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c203b9c563467a6c399abab74020c2716338966b")]
 [assembly: System.Reflection.AssemblyProductAttribute("MyDNA.GrpcClient.ConsoleApp.ThuNTN")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MyDNA.GrpcClient.ConsoleApp.ThuNTN")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

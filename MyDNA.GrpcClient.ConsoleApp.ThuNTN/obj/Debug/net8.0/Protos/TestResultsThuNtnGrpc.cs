@@ -53,6 +53,8 @@ namespace MyDNA.GrpcService.ThuNTN.Protos {
     static readonly grpc::Marshaller<global::MyDNA.GrpcService.ThuNTN.Protos.TestResultThuNtnIdRequest> __Marshaller_TestResultThuNtnIdRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::MyDNA.GrpcService.ThuNTN.Protos.TestResultThuNtnIdRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::MyDNA.GrpcService.ThuNTN.Protos.TestResultsThuNtn> __Marshaller_TestResultsThuNtn = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::MyDNA.GrpcService.ThuNTN.Protos.TestResultsThuNtn.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::MyDNA.GrpcService.ThuNTN.Protos.MutationResult> __Marshaller_MutationResult = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::MyDNA.GrpcService.ThuNTN.Protos.MutationResult.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::MyDNA.GrpcService.ThuNTN.Protos.EmptyRequest, global::MyDNA.GrpcService.ThuNTN.Protos.TestResultsThuNtnList> __Method_GetAllAsync = new grpc::Method<global::MyDNA.GrpcService.ThuNTN.Protos.EmptyRequest, global::MyDNA.GrpcService.ThuNTN.Protos.TestResultsThuNtnList>(
@@ -69,6 +71,30 @@ namespace MyDNA.GrpcService.ThuNTN.Protos {
         "GetByIdAsync",
         __Marshaller_TestResultThuNtnIdRequest,
         __Marshaller_TestResultsThuNtn);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::MyDNA.GrpcService.ThuNTN.Protos.TestResultsThuNtn, global::MyDNA.GrpcService.ThuNTN.Protos.MutationResult> __Method_CreateAsync = new grpc::Method<global::MyDNA.GrpcService.ThuNTN.Protos.TestResultsThuNtn, global::MyDNA.GrpcService.ThuNTN.Protos.MutationResult>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "CreateAsync",
+        __Marshaller_TestResultsThuNtn,
+        __Marshaller_MutationResult);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::MyDNA.GrpcService.ThuNTN.Protos.TestResultsThuNtn, global::MyDNA.GrpcService.ThuNTN.Protos.MutationResult> __Method_UpdateAsync = new grpc::Method<global::MyDNA.GrpcService.ThuNTN.Protos.TestResultsThuNtn, global::MyDNA.GrpcService.ThuNTN.Protos.MutationResult>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "UpdateAsync",
+        __Marshaller_TestResultsThuNtn,
+        __Marshaller_MutationResult);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::MyDNA.GrpcService.ThuNTN.Protos.TestResultThuNtnIdRequest, global::MyDNA.GrpcService.ThuNTN.Protos.MutationResult> __Method_DeleteAsync = new grpc::Method<global::MyDNA.GrpcService.ThuNTN.Protos.TestResultThuNtnIdRequest, global::MyDNA.GrpcService.ThuNTN.Protos.MutationResult>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "DeleteAsync",
+        __Marshaller_TestResultThuNtnIdRequest,
+        __Marshaller_MutationResult);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -142,6 +168,66 @@ namespace MyDNA.GrpcService.ThuNTN.Protos {
       public virtual grpc::AsyncUnaryCall<global::MyDNA.GrpcService.ThuNTN.Protos.TestResultsThuNtn> GetByIdAsyncAsync(global::MyDNA.GrpcService.ThuNTN.Protos.TestResultThuNtnIdRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_GetByIdAsync, null, options, request);
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::MyDNA.GrpcService.ThuNTN.Protos.MutationResult CreateAsync(global::MyDNA.GrpcService.ThuNTN.Protos.TestResultsThuNtn request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return CreateAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::MyDNA.GrpcService.ThuNTN.Protos.MutationResult CreateAsync(global::MyDNA.GrpcService.ThuNTN.Protos.TestResultsThuNtn request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_CreateAsync, null, options, request);
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::MyDNA.GrpcService.ThuNTN.Protos.MutationResult> CreateAsyncAsync(global::MyDNA.GrpcService.ThuNTN.Protos.TestResultsThuNtn request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return CreateAsyncAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::MyDNA.GrpcService.ThuNTN.Protos.MutationResult> CreateAsyncAsync(global::MyDNA.GrpcService.ThuNTN.Protos.TestResultsThuNtn request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_CreateAsync, null, options, request);
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::MyDNA.GrpcService.ThuNTN.Protos.MutationResult UpdateAsync(global::MyDNA.GrpcService.ThuNTN.Protos.TestResultsThuNtn request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return UpdateAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::MyDNA.GrpcService.ThuNTN.Protos.MutationResult UpdateAsync(global::MyDNA.GrpcService.ThuNTN.Protos.TestResultsThuNtn request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_UpdateAsync, null, options, request);
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::MyDNA.GrpcService.ThuNTN.Protos.MutationResult> UpdateAsyncAsync(global::MyDNA.GrpcService.ThuNTN.Protos.TestResultsThuNtn request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return UpdateAsyncAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::MyDNA.GrpcService.ThuNTN.Protos.MutationResult> UpdateAsyncAsync(global::MyDNA.GrpcService.ThuNTN.Protos.TestResultsThuNtn request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_UpdateAsync, null, options, request);
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::MyDNA.GrpcService.ThuNTN.Protos.MutationResult DeleteAsync(global::MyDNA.GrpcService.ThuNTN.Protos.TestResultThuNtnIdRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return DeleteAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::MyDNA.GrpcService.ThuNTN.Protos.MutationResult DeleteAsync(global::MyDNA.GrpcService.ThuNTN.Protos.TestResultThuNtnIdRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_DeleteAsync, null, options, request);
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::MyDNA.GrpcService.ThuNTN.Protos.MutationResult> DeleteAsyncAsync(global::MyDNA.GrpcService.ThuNTN.Protos.TestResultThuNtnIdRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return DeleteAsyncAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::MyDNA.GrpcService.ThuNTN.Protos.MutationResult> DeleteAsyncAsync(global::MyDNA.GrpcService.ThuNTN.Protos.TestResultThuNtnIdRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_DeleteAsync, null, options, request);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]

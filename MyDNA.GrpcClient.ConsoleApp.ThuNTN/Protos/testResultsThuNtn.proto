@@ -3,10 +3,17 @@ syntax = "proto3";
 option csharp_namespace = "MyDNA.GrpcService.ThuNTN.Protos";
 service TestResultsThuNtnGRPC {
     rpc GetAllAsync (EmptyRequest) returns (TestResultsThuNtnList);
-        rpc GetByIdAsync (TestResultThuNtnIdRequest) returns (TestResultsThuNtn);
+    rpc GetByIdAsync (TestResultThuNtnIdRequest) returns (TestResultsThuNtn);
+    rpc CreateAsync(TestResultsThuNtn) returns (MutationResult);
+    rpc UpdateAsync(TestResultsThuNtn) returns (MutationResult);
+    rpc DeleteAsync(TestResultThuNtnIdRequest) returns (MutationResult);
 }
 
 message EmptyRequest {
+}
+message MutationResult
+{
+	int32 result = 1;
 }
 message TestResultThuNtnIdRequest
 {

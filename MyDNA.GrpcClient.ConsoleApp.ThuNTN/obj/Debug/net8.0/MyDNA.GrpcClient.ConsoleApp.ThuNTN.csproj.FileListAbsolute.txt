@@ -19,3 +19,4 @@ C:\Users\admin\source\repos\SU25_PRN231_SE1723_ASM3_SE171992_ThuNTN\MyDNA.GrpcCl
 C:\Users\admin\source\repos\SU25_PRN231_SE1723_ASM3_SE171992_ThuNTN\MyDNA.GrpcClient.ConsoleApp.ThuNTN\obj\Debug\net8.0\MyDNA.GrpcClient.ConsoleApp.ThuNTN.pdb
 C:\Users\admin\source\repos\SU25_PRN231_SE1723_ASM3_SE171992_ThuNTN\MyDNA.GrpcClient.ConsoleApp.ThuNTN\obj\Debug\net8.0\MyDNA.GrpcClient.ConsoleApp.ThuNTN.genruntimeconfig.cache
 C:\Users\admin\source\repos\SU25_PRN231_SE1723_ASM3_SE171992_ThuNTN\MyDNA.GrpcClient.ConsoleApp.ThuNTN\obj\Debug\net8.0\ref\MyDNA.GrpcClient.ConsoleApp.ThuNTN.dll
+C:\Users\admin\source\repos\SU25_PRN231_SE1723_ASM3_SE171992_ThuNTN\MyDNA.GrpcClient.ConsoleApp.ThuNTN\obj\Debug\net8.0\MyDNA.GrpcClient.ConsoleApp.ThuNTN.sourcelink.json

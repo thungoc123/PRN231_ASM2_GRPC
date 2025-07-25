@@ -26,3 +26,4 @@ C:\Users\admin\source\repos\SU25_PRN231_SE1723_ASM3_SE171992_ThuNTN\MyDNA.Reposi
 C:\Users\admin\source\repos\SU25_PRN231_SE1723_ASM3_SE171992_ThuNTN\MyDNA.Repositories.ThuNTN\obj\Debug\net8.0\MyDNA.Repositories.ThuNTN.pdb
 C:\Users\admin\source\repos\SU25_PRN231_SE1723_ASM3_SE171992_ThuNTN\MyDNA.Repositories.ThuNTN\obj\Debug\net8.0\MyDNA.Repositories.ThuNTN.genruntimeconfig.cache
 C:\Users\admin\source\repos\SU25_PRN231_SE1723_ASM3_SE171992_ThuNTN\MyDNA.Repositories.ThuNTN\obj\Debug\net8.0\ref\MyDNA.Repositories.ThuNTN.dll
+C:\Users\admin\source\repos\SU25_PRN231_SE1723_ASM3_SE171992_ThuNTN\MyDNA.Repositories.ThuNTN\obj\Debug\net8.0\MyDNA.Repositories.ThuNTN.sourcelink.json
